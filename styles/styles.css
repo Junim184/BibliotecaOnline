@@ -1,0 +1,220 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -------------------------------------------------- */
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+    transition: all 0.5s;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-size: 40px;
+    font-family: poppinsmedium;
+}
+
+/* -------------------------------------------------- */
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+/* -------------------------------------------------- */
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 20%;
+}
+
+#serv{
+    padding-top: 3px;
+}
+
+.over {
+    margin-top: 60px;
+}
+
+#ove{
+    padding-top: 3px;
+}
+
+
+
+#cont{
+    padding-top: 30px;
+}
+
+/* -------------------------------------------------- */
+
+img{
+    width: 560px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20%;
+
+    width: 90%;
+    height: 70vh;
+}
+
+/* -------------------------------------------------- */
+
+.card{
+    background: rgb(132, 14, 201);
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+}
+
+.mediaCard1{
+    background: url(https://wallpapercave.com/wp/wp8559854.jpg) center/cover;
+
+    height: 200px;
+    width: 100%;
+}
+
+.mediaCard2{
+    background: url(https://animesher.com/orig/1/104/1043/10438/animesher.com_books-yuki-manga-1043800.jpg) center/cover;
+
+    height: 200px;
+    width: 100%;
+}
+
+.topcard{
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.actionsCard{
+    padding: 20px;
+}
+
+.actions{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.actions:hover{
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+#link-top{
+    text-decoration: none;
+    position: fixed;
+
+    color: white;
+    background-color: rgb(132, 14, 201);
+
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #333;
+
+    padding: 10px;
+
+    right: 10px;
+    bottom: 10px;
+}
+
+#link-top:hover {
+    background-color: rgb(107, 13, 161);
+}
+
+/* -------------------------------------------------- */
+
+
